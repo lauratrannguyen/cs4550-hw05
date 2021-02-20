@@ -1,0 +1,30 @@
+Please fill in answers to the questions below:
+
+
+1. What's your name?
+Laura Nguyen
+
+2. What hostname did you deploy to?
+lauratrannguyen.com
+
+3. Which parts of this assignment did you have trouble with, if any?
+Literally all of the elixir code for game.ex. No joke, it seriously made me question my CS major. I lost half my life span. However, I am deeply thankful for Prof Tuck for having a good scratch repo for the socket and game channel - I had little difficulty with that.
+
+But still, javascript > elixir any day
+
+4. What part of your application state is on the server?
+To the server, I moved making the random secret, creating the view for the user, checking whether a guess was valid and its evaluated result, 
+Checking if the game was over, displaying any error messages user inputs brought, and ending the game when attempts reached 0.
+
+5. What part of your application state, if any, is in the browser?
+I guess adding the user’s guesses and results into a list, but I did connect it to the socket with ch functions for the service side to utilize them. The key press is still in the browser, as is the button clicking.
+
+And here's a list of tasks for grading comments. Just leave this here:
+ - Task 1
+ - Task 2
+ - Task 3
+ - Task 4
+ - Task 5
+ - Task 6
+ - Task 7
+ - Task 8
